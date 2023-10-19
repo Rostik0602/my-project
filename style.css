@@ -1,5 +1,5 @@
 .intro {
-    background-image: url('./bg.png');
+    background-image: url('./src/images/bg.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -361,7 +361,7 @@ flex-shrink: 0;
 height: 204.796px;
 }
 .section-main-3 {
-    background-image: linear-gradient(90deg, #000 7.49%, rgba(3, 3, 3, 0.00) 77.17%), url('./bg-2.png');
+    background-image: linear-gradient(90deg, #000 7.49%, rgba(2, 2, 2, 0.00) 100.17%), url('./Src/images/bg-2.webp');
    background-repeat: no-repeat;
    background-size: cover;
 
@@ -493,11 +493,11 @@ line-height: normal;
     display: inline-flex;
     margin-top: 60px;
     margin-bottom: 86px;
-    margin-left: 120px;
+    margin-left: 250px;
 }
 .list-footer {
     display: block;
-    margin-right: 150px;
+    margin-right: 110px;
     list-style: none;
 }
 .list:first-child {
@@ -556,4 +556,7 @@ line-height: normal;
 }
 .block-last {
     padding-bottom: 24px;
+}
+.block-section-4 {
+    margin-left: 130px;
 }
