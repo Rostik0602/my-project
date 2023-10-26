@@ -80,10 +80,11 @@ transition: 0.2s linear;
 }
 .food-cards {
     display: flex;
+justify-content: center;
 
 }
 .food-cards-block {
-    margin-left: 332px;
+
     padding-bottom: 36px;
 }
 .card-two {
@@ -193,16 +194,16 @@ display: inline-block;
 }
 .menu-card {
  
-  width: 328px;
-  height: 259px;
-  text-align: center;
-  padding-top: 35px;
-  padding-bottom: 35px;
+    width: 328px;
+    height: 259px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
-.menu-cards:not(:last-child) {
-    display: block;
+.menu-cards {
+    display: inline-block;
 padding-bottom: 100px;
-margin-left: 450px;
+margin: auto;
 
 
 }
@@ -256,9 +257,7 @@ padding-top: 200px;
 .menu-main {
     display: flex;
 }
-.menu-cards:last-child {
-    margin-left: 240px;
-}
+
 .img-menu-4 {
     display: inline-block;
     position: absolute;
@@ -284,11 +283,12 @@ padding-top: 200px;
 }
 .section-main-2 {
     background-color: #202023;
+
 }
 .title-bekary-block {
 
   display: flex;
-justify-content: center;
+  justify-content: center;
 }
 .bekary-title {
     color: #FFF;
@@ -305,8 +305,9 @@ padding-bottom: 0px;
 } 
 .main-block-list {
     display: flex;
-    margin-left: 353px;
 padding-bottom: 20px;
+background-image: url('./src/images/bgtext1.webp');
+justify-content: center;
 }
 .block-list-1 {
     display: block;
