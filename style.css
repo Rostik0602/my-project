@@ -203,7 +203,9 @@ display: inline-block;
 .menu-cards {
     display: inline-block;
 padding-bottom: 100px;
-margin: auto;
+margin-right: 200px;
+margin-left: 200px;
+
 
 
 }
@@ -256,6 +258,7 @@ padding-top: 200px;
 }
 .menu-main {
     display: flex;
+    justify-content: center;
 }
 
 .img-menu-4 {
@@ -381,7 +384,7 @@ display: inline-flex;
 }
 .block-main-img {
     display: flex;
-    margin-left: 324px;
+justify-content: center;
     margin-top: 150px;
     padding-bottom: 60px;
 }
