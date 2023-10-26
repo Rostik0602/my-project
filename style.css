@@ -69,10 +69,8 @@ transition: 0.18s linear;
 .card {
     width: 310px;
     height: 225px;
-
     background: #272727;
 display: flex;
-margin-right: 134px;
 transition: 0.2s linear;
 
     
@@ -81,6 +79,7 @@ transition: 0.2s linear;
 .food-cards {
     display: flex;
 justify-content: center;
+gap: 134px;
 
 }
 .food-cards-block {
@@ -387,10 +386,11 @@ display: inline-flex;
 justify-content: center;
     margin-top: 150px;
     padding-bottom: 60px;
+    gap: 220px
 }
 .block-img {
     display: block;
-    margin-right: 220px;
+ 
 }
 .title-img {
     color: #FFF;
